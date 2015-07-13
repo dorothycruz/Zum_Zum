@@ -1,0 +1,292 @@
+body {
+	overflow-x:hidden;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+	border-bottom: 2px solid #ff2c31;
+}
+
+h1.concertone {
+	font-family: 'Concert One', cursive;
+	color: #ff2c31;
+}
+
+.navbar-brand>img {
+  margin-top: -5px;
+}
+
+a.navbar {
+	padding: 0;
+}
+
+
+.nav>li>a>img {
+  margin-top: -3px;
+}
+
+.nav>li>a>img.unete {
+  margin-top: -3px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #e7e7e7;
+  margin-top: 20px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+div.down{
+	margin-top: 5%;
+}
+
+footer{
+	text-align: center;
+	margin-top: 2%;
+	border-top: 1px solid #ff2c31;
+}
+
+
+footer.container {
+	margin-top:10px;
+}
+/*div.moveright {
+	margin-right: 6%;
+	margin-top: 1%;
+}*/
+
+div.titulo {
+	margin-top: 5%;
+	margin-left: 15%;
+	
+}
+
+.titulo2 {
+	font-family: 'Concert One', cursive;
+	color: #ff2c31;
+	font-size: 4em;
+}
+
+.img-thumbnail{
+	border: 0;
+}
+
+div.col-md-4 img {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+div.bordeizquierda img {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+/*Link Home*/
+
+a:hover {
+	color: #ff2c31;
+}
+
+p.info {
+	width: 280px;
+}
+
+p.massecciones {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	width: 80%;
+}
+
+/*font-family: 'Concert One', cursive;
+font-family: 'Open Sans', sans-serif;*/
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+@media (min-width: 768px) {
+
+  div.item2 {
+  height:440px;
+  }
+  .carousel3 {
+  	margin-top: 300px;
+  }
+}
+
+/* Carousel base class */
+.carousel {
+  height: 50%;
+  margin-bottom: 20px;
+}
+
+
+/* Posicionamiento de la imagen */
+.item {
+  height:250px;
+}
+
+ .carousel2 {
+  	margin-top: 241px;
+  }
+
+  .carousel3 {
+  	margin-top: 7px;
+  }
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  .item {
+  height:550px;
+  }
+  .carousel2 {
+  	margin-top: 47px;
+  }
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+/* Menú
+-------------------------------------------------- */
+
+li.tipo {
+	font-family: 'Concert One', cursive;
+}
+
+li.tipo>a {
+	color: #ffffff;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+/*li.tipo>a:hover {
+	text-decoration: none;
+}*/
+
+div.red {
+	background-color: #ff2c31;
+	width: 189px;
+	border-radius: 10px;
+	height: 300px;
+}
+
+.dropdown-menu>li>a {
+	color: #ffffff;
+	font-size: 1.4em;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  margin-top: -12px;
+}
+
+.dropdown-menu {
+	padding: 0;
+}
+
+ul.derecha {
+  margin-left: 16px;
+  margin-top: 13px;
+ }
+
+ ul.arriba {
+ 	margin-top:8px;
+ }
+
+ div.ul {
+ 	float: left;
+ }
+
+  h4.izq {
+  	  margin-left: -24px;
+  	}
+
+
+ /*FORM
+ ---------------------------------*/
+input.search-field {
+	height: 36px;
+	width: 44px;
+}
+
+ .search-form {
+    color: #000;
+}
+.search-field {
+background-color: transparent;
+background-image: url("../img/search.png");
+background-position: right;
+background-repeat: no-repeat;
+background-size: 50px 50px;
+border: none;
+cursor: pointer;
+height: 25px;
+margin: 0px 0;
+padding: 0px 0 0 45px;
+-webkit-transition: width 400ms ease, background 400ms ease;
+transition: width 400ms ease, background 400ms ease;
+width: 0;
+text-transform: uppercase;
+font-family: 'Concert One', cursive;
+font-size: 18px;
+color: #ff2c31;
+right:0;
+}
+.search-field:focus {
+    background-color: #f8f8f8;
+    border-bottom: 2px solid #ff2c31;
+    cursor: text;
+    outline: 0;
+    width: 230px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family:'Concert One', cursive;
+    font-size: 18px;
+    color: #ff2c31;
+    right:0;
+}
+.searchform .search-submit {
+    display: none;
+}
+.button {
+    display: none;
+}
+
+/*form{padding:0; margin:0;}*/
+
+
+/* CAPTION
+--------------------------------*/
+.thumbnail{
+    position:relative;
+    overflow:hidden;
+    border: 0;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(255, 255, 255, 0.75);
+    width:100%;
+    height:100%;
+    padding:5%;
+    display: none;
+    text-align: left;
+    color:#000 !important;
+    z-index:2;
+    font-family:'Concert One', cursive;
+    font-size: 25px;
+}
+
+.caption>p {
+	  margin: 30px 0 17px 20px;
+}
